@@ -1,0 +1,26 @@
+Java is a versatile language used for building many types of applications.
+Typing practice improves not just speed but also overall accuracy.
+Focus on writing clean and readable code to impress other developers.
+Debugging is twice as hard as writing the code in the first place.
+A programmer who never made a mistake has never tried anything new.
+Don't just write code — write thoughtful, efficient, and testable code.
+Small improvements each day lead to great results over time.
+Learning Java deeply helps you become a strong backend developer.
+Break large problems into smaller, manageable tasks and solve them.
+Consistent practice is the secret behind mastering any programming skill.
+Keep your code simple, short, and understandable by others.
+Java runs on billions of devices, making it a global favorite.
+Proper error handling is essential for building robust applications.
+Good naming conventions make your code much easier to read.
+Avoid unnecessary complexity — it’s better to keep things clear.
+Take time to refactor your code and improve its structure.
+Understanding object-oriented principles is key to mastering Java.
+Writing comments helps future you or others understand the logic faster.
+Use version control like Git to keep your code safe and track changes.
+Make learning a daily habit, and growth becomes inevitable.
+Challenge yourself by building projects that feel just out of reach.
+Working on real-world problems sharpens your thinking skills.
+It's okay to get stuck — that's how we learn and grow.
+Coding is both a science and an art; enjoy the process.
+Use tools like VS Code or IntelliJ to speed up development.
+Remember: Consistency beats motivation every single time.
