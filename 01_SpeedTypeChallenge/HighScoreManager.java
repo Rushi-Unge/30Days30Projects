@@ -1,7 +1,7 @@
 import java.io.*;
 
 public class HighScoreManager {
-    private static final String FILE_PATH = "highscore.txt";
+    private static final String FILE_PATH = "01_SpeedTypeChallenge/highscore.txt";
 
     public static double loadHighScore() {
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH))) {
