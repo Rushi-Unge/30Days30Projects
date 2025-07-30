@@ -7,7 +7,7 @@ import java.util.*;
 
 public class NoteKeeper {
 
-    private static final String FILE_NAME = "notes.txt";
+    private static final String FILE_NAME = "04_NoteKeeperCLI/src/notes.txt";
     private static final Scanner scanner = new Scanner(System.in);
     private static final List<String> notes = new ArrayList<>();
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
