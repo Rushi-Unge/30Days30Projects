@@ -1,43 +1,39 @@
-import service.MovieService;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        MovieService movieService = new MovieService();
+        MovieService movieService = new MovieService(); 
+        Scanner scanner = new Scanner(System.in);
 
-        while (true) {
-            System.out.println("\n Movie Rater Menu: "); 
-            System.out.println("1. Add Movie Rating.");
-            System.out.println("2. List Movies (Top Rated First)");
+        boolean running = true;
+        while (running) {
+            System.out.println("\n===== Movie Rater CLI =====");
+            System.out.println("1. Add Movie");
+            System.out.println("2. Show Movies");
+            System.out.println("3. Save to File");
             System.out.println("4. Exit");
-            System.out.println("Enter Choice: ");
-            int choice = sc.nextInt();
-            sc.nextLine();
+            System.out.print("Choose an option: ");
+            int choice = scanner.nextInt();
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1 -> {
-                    System.out.println("Enter Movie Title: ");
-                    String title = sc.nextLine();
-                    System.out.println("Enter rating (1-5): ");
-                    int stars = sc.nextInt();
-                    if(stars < 1 || stars > 5){
-                        System.out.println("Invalid rating.");
-                    }else{
-                        movieService.addMovie(title,stars);
-                        System.out.println("Movie rated!");
-                    }
+                    System.out.print("Movie Name: ");
+                    String name = scanner.nextLine();
+                    System.out.print("Rating (1–5): ");
+                    int rating = scanner.nextInt();
+                    scanner.nextLine();
+                    movieService.addMovie(new Movie(name, rating));
                 }
-                case 2 -> movieService.listMovies();
-                case 3 ->FileManager.saveToFile(movieService.getMovies());
+                case 2 -> movieService.displayMovies();
+                case 3 -> FileManager.saveToFile(movieService.getMovies());
                 case 4 -> {
-                    System.out.println("Goodbye!");
-                    System.exit(0);
-                }    
-                default -> System.out.println("Invalid Choice.");
+                    running = false;
+                    System.out.println("Exiting...");
+                }
+                default -> System.out.println("Invalid choice!");
             }
-            
         }
+        scanner.close();
     }
 }
-
