@@ -1,0 +1,41 @@
+What is the size of int in Java?
+1 byte
+2 bytes
+4 bytes
+8 bytes
+3
+
+Which company developed Java?
+Sun Microsystems
+Oracle
+IBM
+Google
+1
+
+What does JVM stand for?
+Java Virtual Machine
+Java Verified Machine
+Java Variable Manager
+Joint Virtual Machine
+1
+
+Which of these is not a Java keyword?
+final
+delete
+volatile
+private
+2
+
+Which method is the entry point of a Java program?
+main()`
+start()
+run()
+init()
+1
+
+How many primitive data types are there in Java?
+6
+7
+8
+9
+3
